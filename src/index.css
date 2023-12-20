@@ -14,15 +14,11 @@ html {
 
 :root {
   /* colors */
-  --primary-100: #fae8ff;
-  --primary-200: #f5d0fe;
-  --primary-300: #f0abfc;
-  --primary-400: #e879f9;
-  --primary-500: #d946ef;
-  --primary-600: #c026d3;
-  --primary-700: #a21caf;
-  --primary-800: #86198f;
-  --primary-900: #701a75;
+  --primary-100: #fafafa;
+  --primary-200: #ffeaf4;
+  --primary-300: #fde3f0;
+  --primary-400: #9e3668;
+  --primary-500: #691a40;
 
   /* grey */
   --grey-50: #f8fafc;
@@ -135,8 +131,8 @@ ul {
 
 .btn {
   cursor: pointer;
-  color: var(--white);
-  background: var(--primary-500);
+  color: var(--primary-100);
+  background: var(--primary-400);
   border: transparent;
   border-radius: var(--borderRadius);
   letter-spacing: var(--letterSpacing);
@@ -147,7 +143,7 @@ ul {
   display: inline-block;
 }
 .btn:hover {
-  background: var(--primary-700);
+  background: var(--primary-500);
   box-shadow: var(--shadow-3);
 }
 .btn-hipster {
@@ -258,7 +254,7 @@ ul {
 /* optional overwrite */
 
 body {
-  background: var(--primary-100);
+  background: var(--primary-200);
 }
 
 /* * {
@@ -276,7 +272,7 @@ main {
   width: 90vw;
   max-width: var(--fixed-width);
   margin: 5rem 0;
-  background: var(--white);
+  background: var(--primary-100);
   border-radius: var(--borderRadius);
   padding: 1.5rem 2rem;
   box-shadow: var(--shadow-1);
