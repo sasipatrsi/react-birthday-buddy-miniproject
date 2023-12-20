@@ -254,7 +254,7 @@ ul {
 /* optional overwrite */
 
 body {
-  background: var(--primary-200);
+  background: var(--grey-100);
 }
 
 /* * {
